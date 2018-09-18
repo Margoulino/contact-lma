@@ -42,8 +42,8 @@ public class ContactServiceMockTest extends EasyMockSupport{
 		//3 - Test
 		service.delete("Machin");
 	}
-	
-	@Test
+/*
+	@Test(expected = )
 	public void testDeleteContactExistEasyMockSample() throws ContactNotExistingException {
 		//1 - Enregistrement des comportements des mocks
 		Contact contact = new Contact();
@@ -55,5 +55,5 @@ public class ContactServiceMockTest extends EasyMockSupport{
 		
 		//3 - Test
 		service.delete("Machin");
-	}
+	}*/
 }

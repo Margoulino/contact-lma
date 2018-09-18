@@ -1,6 +1,9 @@
-
+/**
+ * @author e1502413
+ * Classe qui représente un contact avec son nom en attribut
+ */
 public class Contact {
-	
+    
 	private String nomContact;
 	
 	public Contact(String nomContact) {
